@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.S servis - Elektroinstalace, Vodoinstalace, Topenářské práce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #0056b3;
+        }
+        .navbar a.nav-link {
+            color: #f4f4f4;
+        }
+        .navbar a.nav-link:hover {
+            color: #007bff;
+        }
+        .hero {
+            background: url('your-image.jpg') no-repeat center center/cover;
+            height: 60vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #0056b3;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .services img, .gallery img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .services h3, .gallery h3 {
+            color: #0056b3;
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+        .social-links a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .social-links a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+        .gallery {
+            margin-bottom: 30px;
+        }
+        .gallery img {
+            height: auto;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">A.S servis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Naše služby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#photos">Fotografie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h1>Profesionální služby v oblasti elektroinstalace, vodoinstalace a topenářských prací</h1>
+            <p>Chystáte se na rekonstrukci nebo potřebujete něco opravit? <br>Vše zařídíme za vás, od jednoho dodavatele!</p>
+        </div>
+    </section>
+
+    <section id="services" class="container mt-5">
+        <h2 class="text-center mb-4">Naše služby</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Elektroinstalace</h3>
+                <p>Naše elektroinstalační služby zahrnují kompletní řešení od návrhu až po realizaci. Provádíme:</p>
+                <ul>
+                    <li>Instalace elektrických rozvodů</li>
+                    <li>Montáž osvětlení a elektrických zařízení</li>
+                    <li>Revize a opravy elektrických systémů</li>
+                    <li>Údržbu a modernizaci stávajících instalací</li>
+                </ul>
+                <p>S našimi odborníky můžete být klidní, že vaše elektroinstalace bude bezpečná a funkční.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Vodoinstalace</h3>
+                <p>Poskytujeme komplexní vodoinstalační služby, které zahrnují:</p>
+                <ul>
+                    <li>Instalace nových vodovodních a kanalizačních rozvodů</li>
+                    <li>Opravy a údržbu stávajících rozvodů</li>
+                    <li>Montáž a výměnu vodovodních baterií, WC a umyvadel, vodáren</li>
+                    <li>Řešení problémů s vodním tlakem a úniky vody</li>
+                </ul>
+                <p>Naše služby vám zajistí bezproblémový chod vašich vodoinstalačních systémů a kvalitní připojení k vodě.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Topenářské práce</h3>
+                <p>Specializujeme se na instalaci a údržbu topných systémů, které zahrnují:</p>
+                <ul>
+                    <li>Montáž a servis centrálního vytápění a kotlů</li>
+                    <li>Instalaci radiátorů a podlahového topení</li>
+                    <li>Kontrolu a údržbu topných systémů</li>
+                    <li>Řešení problémů s topením a regulací teploty</li>
+                </ul>
+                <p>Poskytujeme efektivní a spolehlivá řešení pro vytápění vašich prostorů, aby byl váš domov vždy komfortní.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="photos" class="container mt-5">
+        <h2 class="text-center mb-4">Fotografie</h2>
+        <div class="row gallery">
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/435712916_122139704882121623_6967161330203334500_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=AxSvu9QztlgQ7kNvgHtH0gq&_nc_ht=scontent.fprg4-1.fna&oh=00_AYDk6amXC9okP0jo37R2grMxD6n6TzEsMYUCGIXbA5p_tQ&oe=66D235B4" alt="Ukázka práce 1">
+            </div>
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/436197668_122139704930121623_5690955740696827624_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xx2YHuLcjm4Q7kNvgGnBrtg&_nc_ht=scontent.fprg4-1.fna&oh=00_AYCh5BQfF57nfrgLNnGd4hF3jG0M7WBWauseLLn7zeJWig&oe=66D238B4" alt="Ukázka práce 2">
+            </div>
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/456966728_122162698982121623_7691946058305991538_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0LXvGCDchdQQ7kNvgFb5-0a&_nc_ht=scontent.fprg4-1.fna&oh=00_AYDQfcinrkK9h7qFi-A2c_Tc3DYEzlyFaGKNG1GQ9d6XuQ&oe=66D242AC" alt="Ukázka práce 3">
+            </div>
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/404269306_122102243516121623_456028196506077272_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LtO3MAXDI_UQ7kNvgHwKK9i&_nc_ht=scontent.fprg4-1.fna&oh=00_AYBgRFHcdnRNwvQMmFvljS9klQZcMEPwI_WxNK6cFB6pXw&oe=66D24EFB" alt="Ukázka práce 4">
+            </div>
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/435747013_122139920222121623_2818369506606643405_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7MyhZJ3o__wQ7kNvgEF7QSJ&_nc_ht=scontent.fprg4-1.fna&oh=00_AYCUDKWxSq3-lmU33-1JH_zv5ZSIX5uVEjfR6SyIu-Tr2Q&oe=66D24C53" alt="Ukázka práce 5">
+            </div>
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/436259779_122139920288121623_2007693451340499977_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=05iPBsSP8ZwQ7kNvgF4kayX&_nc_ht=scontent.fprg4-1.fna&oh=00_AYDdHu0bokw97UAFV_Hra-jGT27ZJna41JRNHzwqN3GrdA&oe=66D24BB4" alt="Ukázka práce 6">
+             </div>
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/404236289_122102248070121623_6028242744886685685_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=SjguFLBAWU8Q7kNvgEKK8dw&_nc_ht=scontent.fprg4-1.fna&_nc_gid=AW-g4aSQnFd3n50Bt4l1uaQ&oh=00_AYB-U-50qcAAVLZoLX4tV5WuzSTcbCcNUlkOkDfRepfNsw&oe=66D2482C" alt="Ukázka práce 7">
+            </div>
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/435712421_122139920270121623_5240723790325373759_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ge100lVIYzUQ7kNvgGyM1Sf&_nc_ht=scontent.fprg4-1.fna&oh=00_AYBC5CHVflHDj-uxHNlFcgrRZ0kkHSYe_wkfZO1oD4eSSw&oe=66D24B58" alt="Ukázka práce 8">
+            </div>
+            <div class="col-md-4">
+                <img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/404497622_122102243504121623_3561836804631740792_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=iTKpoKqGGCUQ7kNvgGa-O2o&_nc_ht=scontent.fprg4-1.fna&oh=00_AYDx3aqdRa0xw-HokP3IQZqDrcoHFmWBV3GP2Tl7NpKtLg&oe=66D2670C" alt="Ukázka práce 9">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mt-5 mb-5">
+        <h2 class="text-center mb-4">Kontaktujte nás</h2>
+        <p class="text-center">Telefon: <a href="tel:+420734406366">+420 734 406 366</a><br>Email: <a href="mailto:a.s-servis@seznam.cz">a.s-servis@seznam.cz</a></p>
+        <div class="text-center mt-4 social-links">
+            <p>Sledujte nás na sociálních sítích:</p>
+            <a href="https://www.facebook.com/profile.php?id=61553648707837" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/a.s._servis?igsh=MTJzaTFrbWwwMmhxbw%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 A.S servis | Všechna práva vyhrazena</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61553648707837" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/a.s._servis?igsh=MTJzaTFrbWwwMmhxbw%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
